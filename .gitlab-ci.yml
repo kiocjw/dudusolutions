@@ -28,7 +28,7 @@ build:
     - apk add --update --no-cache
     - apk --no-cache --virtual build-dependencies add python
     - npm install
-    - npm install @quasar/cli
+    - npm install -g @quasar/cli
   script:
     - quasar build
     - firebase use dudu-solutions --token $FIREBASE_TOKEN
