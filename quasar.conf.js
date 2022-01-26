@@ -102,9 +102,9 @@ module.exports = function (/* ctx */) {
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {}, // only for GenerateSW
       manifest: {
-        name: 'Office Website Using Quasar',
-        short_name: 'Office Website Using Quasar',
-        description: 'Free template for office website.',
+        name: 'Dudu Solutions',
+        short_name: 'Dudu Solutions',
+        description: 'Software Development Company.',
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
