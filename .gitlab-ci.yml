@@ -26,9 +26,7 @@ build:
   stage: deploy
   before_script:
     - apk update
-    - apk add --update --no-cache curl py-pip python \
-        make \
-        g++ \
+    - apk add --update --no-cache curl py-pip python
     - npm install
     - npm install @quasar/cli
   script:
