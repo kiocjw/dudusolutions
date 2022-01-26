@@ -2,17 +2,13 @@
 
 Free template for company profile made using Quasar Framework and Vue.js! It is a fully responsive template which you can use for your company or maybe for your own portfolio website.
 
-## Site: [https://quasar-company-profile-template.netlify.app/](https://quasar-company-profile-template.netlify.app/)
+## Site: [https://dudusolutions.com/](https://dudusolutions.com/)
 
 # Support
 
-If this helped you, you can contribute to this project by supporting me:
+This project:
 
-### [💜 Support my open-source work on GitHub](https://github.com/kiocjw)
-
-Please check out my sponsor page.
-
-(GitHub currently **doubles your support**! So if you support me with $5/mo, I will get $10 instead! 😉)
+### [💜 GitHub](https://github.com/kiocjw)
 
 Thank you very much!!
 
