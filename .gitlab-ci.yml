@@ -25,7 +25,8 @@ build:
   image: node:alpine
   stage: deploy
   before_script:
-    - apk add g++ make python
+    - apk update
+    - apk add --update --no-cache curl py-pip
     - npm install
     - npm install @quasar/cli
   script:
