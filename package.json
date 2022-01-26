@@ -1,0 +1,31 @@
+{
+  "name": "dudusoltuion",
+  "version": "1.0.0",
+  "description": "DUDUSOLUTIONS PROVIDE PROFFESSION SOFTWARE CONSULTATION AND DEVELOPMENT SERVICE.",
+  "productName": "SOFTWARE CONSULTATION AND DEVELOPMENT COMPANY",
+  "cordovaId": "com.dudusolution.quasar.app",
+  "capacitorId": "",
+  "author": "kiocjw",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.21.1",
+    "quasar": "^1.0.0",
+    "vue-i18n": "^8.0.0"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.0.0",
+    "@quasar/quasar-app-extension-qflashcard": "^1.0.1"
+  },
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}
