@@ -22,11 +22,11 @@ cache:
     - node_modules/     
   key: "$CI_BUILD_REPO" 
 build:
-  image: node:alpine
+  image: node:8.16.0-alpine
   stage: deploy
   before_script:
     - apk add --update --no-cache
-    - apk add --no-cache --virtual .gyp python make g++
+    - apk --no-cache --virtual build-dependencies add
     - npm install
     - npm install @quasar/cli
   script:
