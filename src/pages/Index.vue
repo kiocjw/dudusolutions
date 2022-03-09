@@ -743,7 +743,7 @@
                 return {
                     width: '340px',
                     height: '263px',
-                    backgroundImage: `url('https://raw.githubusercontent.com/quasarframework/quasar-ui-qflashcard/dev/demo/src/statics/bgimg.jpg')`, // eslint-disable-line
+                    backgroundImage: `url('/statics/images/bgimg.jpg')`, // eslint-disable-line
                     textAlign: 'center',
                     boxShadow: '1px 1px 2px #e6e6e6',
                     display: 'inline-block'
@@ -753,7 +753,7 @@
                 return {
                     width: '260px',
                     height: '263px',
-                    backgroundImage: `url('https://raw.githubusercontent.com/quasarframework/quasar-ui-qflashcard/dev/demo/src/statics/bgimg.jpg')`, // eslint-disable-line
+                    backgroundImage: `url('/statics/images/bgimg.jpg')`, // eslint-disable-line
                     textAlign: 'center',
                     boxShadow: '1px 1px 2px #e6e6e6',
                     display: 'inline-block'
