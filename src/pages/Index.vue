@@ -692,7 +692,7 @@
            <div class="q-pa-sm q-gutter-sm">
 	    <q-btn round type="a" href="https://twitter.com/dudusolutions"
                      :style="'background:'+ theme_color +'; color: white !important;'" icon="fab fa-twitter" />
-	    <q-btn round type="a" href="https://github.com/kiocjw/dudosolutions"
+	    <q-btn round type="a" href="https://github.com/kiocjw/dudusolutions"
                      :style="'background:'+ theme_color +'; color: white !important;'" icon="fab fa-github" />
             <q-btn round type="a" href="mailto:kiocjw@gmail.com"
                      :style="'background:'+ theme_color +'; color: white !important;'" icon="email" />

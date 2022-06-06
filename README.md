@@ -21,12 +21,12 @@ Thank you very much!!
 * **Clone the repository**
 
 ```
-git clone https://github.com/kiocjw/dudosolutions.git
+git clone https://github.com/kiocjw/dudusolutions.git
 ```
 
 ## Install the dependencies
 ```bash
-cd dudosolutions
+cd dudusolutions
 npm install
 ```
 
