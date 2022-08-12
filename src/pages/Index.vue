@@ -475,6 +475,8 @@
                   <q-btn size="md" class="full-width q-pa-xs"
                      style="background: #ec982f; color: white" label="Choose Plan"/>
                      <br>
+                     <div id="paypal-button-container-P-5GP48636LK200525DML25FMI"></div>       
+                     
                      <div class="q-mt-md">Terms and Conditions apply</div>
                 </div>
               </q-card-section>
@@ -502,7 +504,10 @@
               </q-card-section>
               <q-card-section>
                 <div class="text-center q-px-lg">
-                 <div id="paypal-button-container-P-5GP48636LK200525DML25FMI"></div>
+                   <q-btn size="md" class="full-width q-pa-xs"
+                     style="background: #f4655f; color: white" label="Choose Plan"/>
+                     <br>
+                    <div class="q-mt-md">Terms and Conditions apply</div>        
                 </div>
               </q-card-section>
             </q-card>
