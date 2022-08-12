@@ -459,7 +459,7 @@
               </q-card-section>
               <q-card-section class="q-pa-md">
                 <q-list dense padding style="border-bottom: 1px solid lightgrey;">
-                  <q-item><span class="text-weight-bold">For small project</span></q-item>
+                  <q-item><span class="text-weight-bold">For 60 Hours Monthly Support</span></q-item>
                   <q-item>
                       Free First Consultation
                   </q-item>
@@ -502,10 +502,7 @@
               </q-card-section>
               <q-card-section>
                 <div class="text-center q-px-lg">
-                  <q-btn size="md" class="full-width q-pa-xs"
-                     style="background: #f4655f; color: white" label="Choose Plan"/>
-                     <br>
-                     <div class="q-mt-md">Terms and Conditions apply</div>
+                 <div id="paypal-button-container-P-5GP48636LK200525DML25FMI"></div>
                 </div>
               </q-card-section>
             </q-card>
@@ -706,6 +703,26 @@
   </q-layout>
 </template>
 
+<script src="https://www.paypal.com/sdk/js?client-id=AZGtn0fjNadGLWmbMH0HfsEa-pX-tRVfFvkk3PHTFShVkfSfY4wxZygSOKzecqKXMlR5yplI2jX7cM9m&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'rect',
+          color: 'blue',
+          layout: 'vertical',
+          label: 'subscribe'
+      },
+      createSubscription: function(data, actions) {
+        return actions.subscription.create({
+          /* Creates the subscription */
+          plan_id: 'P-5GP48636LK200525DML25FMI'
+        });
+      },
+      onApprove: function(data, actions) {
+        alert(data.subscriptionID); // You can add optional success message for the subscriber here
+      }
+  }).render('#paypal-button-container-P-5GP48636LK200525DML25FMI'); // Renders the PayPal button
+</script>
 <style src="@quasar/quasar-ui-qflashcard/dist/index.css"></style>
 
 <script>
